@@ -1,0 +1,13 @@
+Step: 1 - Consumer Basic Properties
+bootstrap.server = kafka-broker:port/kafka-cluster:port
+client.id = track server log for debugging.
+key.deserializer = Stream of bytes converting in Object.
+value.deserializer = Stream of bytes converting in Object.
+group.id = unique string for consumer belongs to. (subscribe()topic)
+fetch.min.bytes = cost of some additional latency but improve server throughput.
+
+Step:2 -
+heartbeat.interval.ms = consumer sent periodically with default "3000 ms"/"3 sec" to "kafka broker"/"Group Coordinator"
+session.timeout.ms = consumer not alive timeout to acknowledge group coordinator default "10000 ms" / "10 sec"
+max.partition.fetch.bytes
+fetch.max.bytes = 

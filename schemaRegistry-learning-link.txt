@@ -1,0 +1,12 @@
+1. "landoop UI" for schema registry -> https://www.youtube.com/watch?v=SKLb-KhnpYE
+2. "Kafka tools" for kafka ecosystem UI.
+
+https://stackoverflow.com/questions/39129210/start-confluent-schema-registry-in-windows
+
+https://www.youtube.com/watch?v=wy_BJsxTvo8
+
+2. Some command line api access
+curl http://schema-registry:8081/subjects
+
+curl http://schema-registry:8081/subjects/movie/version/1
+curl http://schema-registry:8081/subjects/movie-value/version/1

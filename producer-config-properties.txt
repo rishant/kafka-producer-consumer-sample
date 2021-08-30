@@ -1,0 +1,15 @@
+Step:1 - Producer Basic Properties
+client.id
+bootstrap-server
+key.serializer
+value.serializer
+
+Step:2 - Producer Throughput Increase
+compression.type = none|gzip|snappy - {"Compression on batch not indivisible records"}
+batch.size = 10 - {"Batch of event/records"}
+buffer.memory = 4096 - {Producer Machine RAM buffer size}
+linger.ms = 500  - {Producer will wait to sending message while batching process}
+max.request.size =  bytes
+
+Note:
+1. Producer will wait to send batch message till either {batch.size} not reach or {linger.ms} given time not finish.   

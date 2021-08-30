@@ -1,0 +1,42 @@
+// Data Structure
+https://www.youtube.com/watch?v=RBSGKlAvoiM&list=PLWKjhJtqVAbnRT_hue-3zyiuIYj0OlpyG&index=5
+
+// Java 8 Functional Programming
+https://www.youtube.com/watch?v=rPSL1alFIjI&list=PLWKjhJtqVAbnRT_hue-3zyiuIYj0OlpyG&index=2
+
+// Producer and Consumer:
+https://kafka.apache.org/21/javadoc/org/apache/kafka/clients/consumer/KafkaConsumer.html
+https://kafka.apache.org/21/javadoc/org/apache/kafka/clients/producer/KafkaProducer.html
+
+https://www.youtube.com/watch?v=zVSaT0glaX8&list=PLxv3SnR5bZE82Cv4wozg2uZvaOlDEbO67&index=11
+https://www.youtube.com/playlist?list=PLa6iDxjj_9qVGTh3jia-DAnlQj9N-VLGp
+https://www.youtube.com/watch?v=Gh1k4tIDkDE
+https://www.youtube.com/watch?v=KOu6DVdaY24&t=1s
+
+// Avro File Format
+https://www.youtube.com/watch?v=SKLb-KhnpYE
+java -jar .\lib\avro-tools-1.10.2.jar compile schema .\src\main\resources\avro\schema\user.avsc .\src\main\java
+
+-> Currently I am here
+// Avro File Format Producer and Consumer:
+https://docs.confluent.io/platform/current/tutorials/examples/clients/docs/java.html
+https://github.com/confluentinc/examples/blob/6.2.0-post/clients/cloud/java/src/main/java/io/confluent/examples/clients/cloud/ProducerAvroExample.java
+https://github.com/confluentinc/examples/blob/6.2.0-post/clients/cloud/java/src/main/java/io/confluent/examples/clients/cloud/ConsumerAvroExample.java
+https://docs.confluent.io/platform/current/schema-registry/serdes-develop/serdes-avro.html
+https://www.learningjournal.guru/article/kafka/how-to-create-avro-messages-using-kafka-producer/
+
+// Kafka Connector:
+// 1. Source Connector
+// 2. Sink Connector
+https://www.confluent.io/hub/debezium/debezium-connector-mysql
+https://github.com/datastax/kafka-examples/tree/master/connectors/jdbc-source-connector
+
+// Kafka Streams
+https://docs.cloudera.com/runtime/7.2.10/kafka-developing-applications/topics/kafka-develop-streams.html
+https://www.learningjournal.guru/article/apache-spark/apache-spark-internals/
+
+// Data Structure
+https://www.youtube.com/watch?v=RBSGKlAvoiM&list=PLWKjhJtqVAbnRT_hue-3zyiuIYj0OlpyG&index=5
+
+// Java 8 Functional Programing
+https://www.youtube.com/watch?v=rPSL1alFIjI&list=PLWKjhJtqVAbnRT_hue-3zyiuIYj0OlpyG&index=2
